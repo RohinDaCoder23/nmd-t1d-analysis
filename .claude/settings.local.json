@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/rohinkethipally/Claude/Projects/DONATION APP/WEBSITE PROJECT/**)",
+      "Bash(npm --version)",
+      "Read(//opt/**)",
+      "Bash(/opt/homebrew/bin/brew --version)",
+      "Read(//usr/local/**)",
+      "Read(//Users/rohinkethipally/**)",
+      "Read(//Users/rohinkethipally/.local/share/**)",
+      "Bash(command -v brew)",
+      "Bash(command -v port)",
+      "Bash(command -v curl)",
+      "Bash(mdfind -name node)",
+      "Bash(grep -i 'bin/node$')",
+      "Bash(curl -sI --max-time 15 https://nodejs.org/dist/index.json)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(curl -s --max-time 20 https://nodejs.org/dist/index.json)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); lts=[x for x in d if x['lts']]; print\\(lts[0]['version'], lts[0]['lts']\\)\")"
+    ]
+  }
+}
