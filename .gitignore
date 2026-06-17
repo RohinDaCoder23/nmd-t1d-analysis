@@ -1,3 +1,5 @@
 *.gtf
 *.fa
-*.db
+*.db.DS_Store
+.ipynb_checkpoints
+.claude
