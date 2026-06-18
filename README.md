@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 **3. Place your GTF and FASTA files in the project folder**
 
-**4. Open `nmd_analysis.py` and edit the settings block at the top of the file**
+**4. Open `nmd_analysis_1.py` and edit the settings block at the top of the file**
 ```python
 # ── USER SETTINGS ──────────────────────────────
 GTF_FILE      = "your_file.gtf"       # replace with your GTF filename
@@ -98,7 +98,7 @@ OUTPUT_FILE   = "results/nmd_results_full.csv"
 
 **5. Run the pipeline**
 ```bash
-python nmd_analysis.py
+python nmd_analysis_1.py
 ```
 
 Runtime is approximately 1–2 minutes for ~140,000 transcripts.
